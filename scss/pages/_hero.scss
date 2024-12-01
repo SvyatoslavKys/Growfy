@@ -1,0 +1,17 @@
+.hero-container{
+    @extend %container;
+    padding: 44px 20px;
+    @extend %dfCentr;
+}
+.left-box{
+    max-width: 625px;
+    position: relative;
+}
+.right-box{
+    max-width: 625px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

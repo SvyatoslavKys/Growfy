@@ -1,0 +1,51 @@
+.link-logo{
+    display: flex;
+    align-items: center;
+    transition: 300ms;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+.nav-box{
+    display: flex;
+    padding: 32px 20px;
+}
+.btn-group{
+    margin-left: auto;
+    display: flex;
+    ul{
+        display: flex;
+        gap: 35px;
+        align-items: center;
+        margin-right: 32px;
+        li{
+            display: flex;
+            align-items: center;
+            a{
+               padding: 10px;
+               transition: 300ms;
+                &:hover{
+                    transform: scale(1.2)
+                }
+            }
+            p{
+                display: flex;
+                background: #81818B;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                color: aliceblue;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .btn-blue{
+        @extend %btn;
+        background: $btn-color-blue;
+    }
+}
+.container-header{
+    @extend %container;
+    height: auto;
+}
