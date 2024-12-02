@@ -222,6 +222,12 @@ body {
   align-items: center;
 }
 
+.left-box h1 {
+  font-size: clamp(28px, 8vw, 52px);
+  font-weight: medium;
+  line-height: 1.2;
+}
+
 .btn-group .btn-blue {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -299,12 +305,21 @@ body {
   max-width: 625px;
   position: relative;
 }
-
+.left-box img {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+}
 .right-box {
   max-width: 625px;
+  display: flex;
 }
 .right-box ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.right-box ul li {
+  margin-bottom: 32px;
 }/*# sourceMappingURL=main.css.map */

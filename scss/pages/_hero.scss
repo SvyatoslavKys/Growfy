@@ -6,12 +6,25 @@
 .left-box{
     max-width: 625px;
     position: relative;
+    img{
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        z-index: -1;
+    }
+    h1{
+      @extend  %titleText;
+    }
 }
 .right-box{
     max-width: 625px;
+    display: flex;
     ul{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        li{
+            margin-bottom: 32px;
+        }
     }
 }
