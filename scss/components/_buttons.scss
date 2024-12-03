@@ -3,13 +3,10 @@
     font-size: 14px;
     padding: 16px 32px;
     border-radius: 50px;
+    background-color: $btn-color-blue;
     border: none;
     letter-spacing: 2px;
     color: $primary-text-color;
     transition: 500ms;
     cursor: pointer;
-        &:hover{
-            background: $btn-color-rgay;
-            text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
-        }
 }

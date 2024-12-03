@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     transition: 300ms;
+    font-size: 25px;
+    font-weight: 700;
     &:hover{
         transform: scale(1.2);
     }
@@ -42,7 +44,11 @@
     }
     .btn-blue{
         @extend %btn;
-        background: $btn-color-blue;
+        
+        &:hover{
+            background: $btn-color-rgay;
+            text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+        }
     }
 }
 .container-header{

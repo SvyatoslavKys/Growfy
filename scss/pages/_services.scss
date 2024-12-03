@@ -1,14 +1,26 @@
-.hero-container{
+.service-container{
     @extend %container;
-    padding: 44px 20px;
+    h2{
+        text-align: center; 
+        @extend %postTitle;
+        margin-bottom: 24px;
+    }
+}
+.service-partner-list{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 190px;
+    margin-bottom: 160px;
 }
-.left-box{
+.service-content-wrapper{
+   @extend %dfCentr;
+   justify-content: space-between;
+    
+}
+.service-left-box{
     max-width: 515px;
     
     @extend %dfCentr;
+    align-items: start;
     flex-direction: column;
     img{
         position: absolute;
@@ -16,7 +28,7 @@
         left: -30px;
         z-index: -1;
     }
-    h1{
+    h3{
         position: relative;
       @extend  %titleText;
       margin-bottom: 30px;
@@ -26,13 +38,27 @@
         margin-bottom: 20px;
     }
 }
-.right-box{
+.service-right-box{
     
     display: flex;
     ul{
-        margin: 30px;
+        &:nth-child(1){
+            margin-right: 30px;
+            padding-top: 41px;
+        }
+       
         li{
-            margin-bottom: 32px;
+            max-width: 315px;
+            background: $bg-color-rgay;
+            padding: 50px 25px;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            img{
+                margin-bottom: 16px;
+            }
+            h3{
+                margin-bottom: 10px;
+            }
         }
     }
 }
@@ -46,11 +72,6 @@
         &:nth-child(2){
             @extend %btn;
             background: $btn-color-rgay;
-            &:hover{
-                background: $btn-color-blue;
-                
-                text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
-            }
     }
     &:hover{
         background: $btn-color-rgay;
