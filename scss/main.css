@@ -209,14 +209,14 @@ body {
   background: black;
 }
 
-.service-container, .hero-container, .container-header {
+.choose-container, .service-container, .hero-container, .container-header {
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
   padding: 0 20px;
 }
 @media screen and (max-width: 768px) {
-  .service-container, .hero-container, .container-header {
+  .choose-container, .service-container, .hero-container, .container-header {
     width: 720px;
     height: 100dvh;
   }
@@ -386,8 +386,7 @@ button:hover {
 }
 .service-left-box img {
   position: absolute;
-  top: -30px;
-  left: -30px;
+  top: -57px;
   z-index: -1;
 }
 .service-left-box h3 {
@@ -432,4 +431,25 @@ button:nth-child(2) {
 button:hover {
   background: rgba(129, 129, 139, 0.7254901961);
   text-shadow: 4px 4px 6px rgb(66, 68, 90);
+}
+
+.choose-container {
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.choose-left-box {
+  position: relative;
+  display: flex;
+}
+
+.choose-right-box {
+  max-width: 606px;
+}
+
+[choose-bg] {
+  position: absolute;
+  top: 0;
+  left: -10px;
 }/*# sourceMappingURL=main.css.map */
