@@ -1,0 +1,36 @@
+.footer-box{
+    @extend %container;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-list{
+    display: flex;
+    gap: 16px;
+}
+.growfty-box{
+    max-width: 340px;
+    li{
+        margin-bottom: 32px;
+    }
+}
+.social-item{
+    fill: red;
+    background: #000000;
+    color: #000000;
+}
+.Pages-box{
+    li{
+        margin-bottom: 24px;
+    }
+}
+.Utility-box{
+    li{
+        margin-bottom: 24px;
+    }
+}
+.Subscribe-box{
+    li{
+        margin-bottom: 24px;
+    }
+}

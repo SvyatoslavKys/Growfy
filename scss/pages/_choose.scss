@@ -41,11 +41,7 @@
          position: absolute;
          top: -84px;
          left: 0;
-         transition: 300ms;
-         cursor: pointer;
-         &:hover{
-            transform: scale(1.1);
-         }
+         @extend %titleBtn;
       }
    }
    ul{

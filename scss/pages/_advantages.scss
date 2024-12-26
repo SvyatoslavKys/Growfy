@@ -1,0 +1,27 @@
+.advantages-container{
+    @extend %container;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .left-box{
+    max-width: 750px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        li{
+            width: 358px;
+            background: $bg-color-rgay;
+            padding: 40px;
+            border-radius: 30px;
+            h3{
+                @extend %titleText;
+                margin-bottom: 32px;
+            }
+            p{
+                @extend %postTitle;
+            }
+        }
+    }
+ }

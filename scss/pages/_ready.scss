@@ -1,0 +1,29 @@
+.ready-box{
+    @extend %container;
+    margin-top: 170px;
+    display: flex;
+    background: $bg-color-rgay;
+    padding: 52px 40px;
+    border-radius: 30px;
+    li{
+        display: flex;
+        max-width: 396px;
+        align-items: center;
+        margin: 0 auto;
+        &:nth-child(1){
+            display: block;
+        }
+        h3{
+            @extend %titleText;
+            font-size: 32px;
+            margin-bottom: 35px;
+            text-align: center
+        }
+        p{
+            @extend %postTitle;
+            font-size: 16px;
+            text-align: center
+        }
+    }
+    
+ }
