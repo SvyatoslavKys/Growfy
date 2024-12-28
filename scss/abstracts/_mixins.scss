@@ -1,0 +1,7 @@
+@mixin socialLink($hover-color: red, $scale: 1.2, $transition-time: 300ms) {
+    transition: #{$transition-time};
+    &:hover {
+        fill: $hover-color;
+        transform: scale(#{$scale});
+    }
+}

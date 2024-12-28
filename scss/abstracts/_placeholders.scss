@@ -35,3 +35,10 @@
             transform: scale(1.2);
          }
 }
+%socialLink{
+    transition: 300ms;
+    &:hover{
+        fill: red;
+        transform: scale(1.2);
+    }
+}

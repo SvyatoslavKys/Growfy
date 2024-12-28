@@ -705,24 +705,66 @@ button:hover {
 .growfty-box {
   max-width: 340px;
 }
+.growfty-box li > p {
+  color: #9C9C9C;
+}
 .growfty-box li {
   margin-bottom: 32px;
 }
 
-.social-item {
-  fill: red;
-  background: #000000;
-  color: #000000;
+.social-list li:nth-child(1) .social-item {
+  transition: 300ms;
+}
+.social-list li:nth-child(1) .social-item:hover {
+  fill: #0077B5;
+  transform: scale(1.3);
+}
+.social-list li:nth-child(2) .social-item {
+  transition: 300ms;
+}
+.social-list li:nth-child(2) .social-item:hover {
+  fill: #1DA1F2;
+  transform: scale(1.3);
+}
+.social-list li:nth-child(3) .social-item {
+  transition: 300ms;
+}
+.social-list li:nth-child(3) .social-item:hover {
+  fill: #1877F2;
+  transform: scale(1.3);
+}
+.social-list li:nth-child(4) .social-item {
+  transition: 300ms;
+}
+.social-list li:nth-child(4) .social-item:hover {
+  fill: #FF0000;
+  transform: scale(1.3);
+}
+.social-list li:nth-child(5) .social-item {
+  transition: 300ms;
+}
+.social-list li:nth-child(5) .social-item:hover {
+  fill: #E4405F;
+  transform: scale(1.3);
 }
 
+.Pages-box li > a {
+  color: #9C9C9C;
+}
 .Pages-box li {
   margin-bottom: 24px;
 }
 
+.Utility-box li > a {
+  color: #9C9C9C;
+}
 .Utility-box li {
   margin-bottom: 24px;
 }
 
+.Subscribe-box li > p {
+  color: #9C9C9C;
+}
 .Subscribe-box li {
   margin-bottom: 24px;
 }/*# sourceMappingURL=main.css.map */
