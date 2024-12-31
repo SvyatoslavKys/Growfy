@@ -222,19 +222,19 @@ body {
   }
 }
 
-.service-left-box, .service-content-wrapper, .left-box {
+.service-left-box, .service-content-wrapper, .hero-left-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.ready-box li h3, .discription-blog-box h3, .icon-description h3, .discription-box h3, .title-box h3, .left-box ul li h3, .service-left-box h3, .left-box h1 {
+.ready-box li h3, .discription-blog-box h3, .icon-description h3, .discription-box h3, .title-box h3, .left-box ul li h3, .service-left-box h3, .hero-left-box h1 {
   font-size: clamp(28px, 8vw, 52px);
   font-weight: 600;
   line-height: 1.2;
 }
 
-.ready-box li p, .blog-date, .discription-blog-box p, .icon-description p, .discription-box p, .title-box p, .left-box ul li p, .choose-right-box ul li p, .choose-right-box h3 + p, .service-left-box p, .service-container h2, .left-box p {
+.ready-box li p, .blog-date, .discription-blog-box p, .icon-description p, .discription-box p, .title-box p, .left-box ul li p, .choose-right-box ul li p, .choose-right-box h3 + p, .service-left-box p, .service-container h2, .hero-left-box p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -329,35 +329,36 @@ button:nth-child(2), button, .btn-group .btn-blue {
   margin-bottom: 190px;
 }
 
-.left-box {
+.hero-left-box {
   max-width: 515px;
   flex-direction: column;
+  align-items: flex-start;
 }
-.left-box img {
+.hero-left-box img {
   position: absolute;
   top: -30px;
   left: -30px;
   z-index: -1;
 }
-.left-box h1 {
+.hero-left-box h1 {
   position: relative;
   margin-bottom: 30px;
 }
-.left-box p {
+.hero-left-box p {
   margin-bottom: 20px;
 }
 
-.right-box {
+.hero-right-box {
   display: flex;
 }
-.right-box ul {
+.hero-right-box ul {
   margin: 30px;
 }
-.right-box ul li {
+.hero-right-box ul li {
   margin-bottom: 32px;
 }
 
-.btn-box {
+.hero-btn-box {
   width: 100%;
 }
 
@@ -429,7 +430,7 @@ button:hover {
   margin-bottom: 10px;
 }
 
-.btn-box {
+.service-btn-box {
   width: 100%;
 }
 
@@ -597,6 +598,23 @@ button:hover {
   font-size: 14px;
 }
 
+.clientsSay-btn-box {
+  width: 100%;
+  margin-top: auto;
+  text-align: end;
+}
+
+button {
+  margin-right: 30px;
+}
+button:nth-child(2) {
+  background: rgba(129, 129, 139, 0.7254901961);
+}
+button:hover {
+  background: rgba(129, 129, 139, 0.7254901961);
+  text-shadow: 4px 4px 6px rgb(66, 68, 90);
+}
+
 .Blog-box {
   margin-top: 170px;
   display: flex;
@@ -663,6 +681,23 @@ button:hover {
 .blog-date {
   margin-top: 227px;
   margin-bottom: 35px;
+}
+
+.blog-btn-box {
+  width: 100%;
+  margin-top: auto;
+  text-align: end;
+}
+
+button {
+  margin-right: 30px;
+}
+button:nth-child(2) {
+  background: rgba(129, 129, 139, 0.7254901961);
+}
+button:hover {
+  background: rgba(129, 129, 139, 0.7254901961);
+  text-shadow: 4px 4px 6px rgb(66, 68, 90);
 }
 
 .ready-box {
@@ -767,4 +802,16 @@ button:hover {
 }
 .Subscribe-box li {
   margin-bottom: 24px;
+}
+
+[type=email] {
+  padding: 16px 32px;
+  border-radius: 50px;
+  margin-right: 16px;
+  color: aliceblue;
+  background: transparent;
+  border: 1px solid rgba(129, 129, 139, 0.6666666667);
+}
+[type=email] ::placeholder {
+  color: aliceblue;
 }/*# sourceMappingURL=main.css.map */

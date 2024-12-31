@@ -5,11 +5,11 @@
     justify-content: space-between;
     margin-bottom: 190px;
 }
-.left-box{
+.hero-left-box{
     max-width: 515px;
-    
     @extend %dfCentr;
     flex-direction: column;
+    align-items: flex-start;
     img{
         position: absolute;
         top: -30px;
@@ -26,7 +26,7 @@
         margin-bottom: 20px;
     }
 }
-.right-box{
+.hero-right-box{
     
     display: flex;
     ul{
@@ -36,7 +36,7 @@
         }
     }
 }
-.btn-box{
+.hero-btn-box{
     width: 100%;
     
     }
